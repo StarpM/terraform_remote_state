@@ -33,8 +33,4 @@ terraform {
     dynamodb_table = "terraform-state-lock-dynamo"
   }
 }
-
-provider "aws" {
-  region = var.aws_region
-}
 ```
